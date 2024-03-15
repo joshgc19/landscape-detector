@@ -14,7 +14,7 @@ A classification algorithm in supervised machine learning that utilizes pattern 
 **Joshua Gamboa Calvo**<br>
 BS in Computing Engineering undergraduate<br>
 Instituto Tecnológico de Costa Rica<br>
-[LinkedIn](https://www.linkedin.com/in/joshgc.19) | [GitHub](https://github.com/joshgc.19)
+[LinkedIn](https://www.linkedin.com/in/joshgc19) | [GitHub](https://github.com/joshgc.19)
 
 ## License
 
