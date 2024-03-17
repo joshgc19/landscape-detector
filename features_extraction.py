@@ -84,13 +84,15 @@ def extract_color_percentage(image):
 
 def extract_features(is_testing=False):
     """
-
-    :param is_testing:
-    :return:
+    Function that extracts the features from the preprocessed images and returns a list of feature vectors
+    :param is_testing: Boolean to indicate which dataset to extract features from
+    :return: list of feature vectors
     """
+    # Selecting the correct folders from where to take the dataset
     data_dir = PREPROCESS_TESTING_DATA_DIR if is_testing else PREPROCESS_TRAINING_DATA_DIR
     filenames = retrieve_filenames_from_directory(data_dir)
 
+    # Grouping preprocessed files by file name
     images_feature_files = {}
 
     for i in range(0, len(filenames), 3):
@@ -100,19 +102,27 @@ def extract_features(is_testing=False):
     images_names = []
     function_list = [extract_skyline, extract_color_percentage, extract_color_percentage]
 
+    # Loop that applies the feature extracting functions to the images and calculates their feature vectors
     for image_name, image_dimensions in images_feature_files.items():
         images = list(map(lambda x: cv2.imread(data_dir + x), image_dimensions))
         features = list(map(lambda func, arg: func(arg), function_list, images))
         feature_values.append(features)
         images_names.append(image_name)
 
+    # Check whether is in testing to calculate and write to a file the landscape recognition model or return the feature
+    # vectors
     if not is_testing:
+        # Calculate the mean feature vector and the variance one
         average_vector = calculate_average_feature_vector(feature_values)
         variance_vector = calculate_variance_feature_vector(feature_values, average_vector)
 
-        write_into_file(VECTORS_DIR + INDIVIDUAL_VECTOR_FILE_NAME, list(map(lambda feature_list: join_list_floats(feature_list,","), feature_values)))
-        write_into_file(VECTORS_DIR + MODEL_FILE_NAME, [join_list_floats(average_vector, ","), join_list_floats(variance_vector, ",")])
+        # Write model into model file and individual readings
+        write_into_file(VECTORS_DIR + INDIVIDUAL_VECTOR_FILE_NAME,
+                        list(map(lambda feature_list: join_list_floats(feature_list,","), feature_values)))
+        write_into_file(VECTORS_DIR + MODEL_FILE_NAME,
+                        [join_list_floats(average_vector, ","), join_list_floats(variance_vector, ",")])
     else:
+        # return feature vectors
         return zip(images_names, feature_values)
 
 

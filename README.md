@@ -1,4 +1,4 @@
-# Landscape Categorization Model - Supervised ML
+# Landscape Categorization Model
 
 A classification algorithm in supervised machine learning that utilizes pattern recognition techniques and statistical methods.
 
@@ -8,6 +8,40 @@ A classification algorithm in supervised machine learning that utilizes pattern 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of contents
+* [Landscape Categorization Model](#landscape-categorization-model)
+  * [Table of contents](#table-of-contents)
+  * [Project Description](#project-description)
+    * [Constraints](#constraints)
+  * [Algorithm explanation](#algorithm-explanation)
+    * [Features chosen](#features-chosen)
+    * [Pattern recognition and model calculation algorithm](#pattern-recognition-and-model-calculation-algorithm)
+    * [Implementation](#implementation)
+  * [Resulting model](#resulting-model)
+  * [Testing](#testing)
+    * [Results](#results)
+  * [Conclusion](#conclusion)
+  * [Author](#author)
+  * [License](#license)
+
+## Project description
+
+### Constraints
+
+## Algorithm explanation
+
+### Features chosen
+
+### Pattern recognition and model calculation algorithm
+
+### Implementation
+
+## Resulting model
+
+## Testing
+
+### Results
+
+## Conclusion
 
 ## Author
 
