@@ -25,12 +25,19 @@ A classification algorithm in supervised machine learning that utilizes pattern 
 
 ## Project description
 
+This project centers on creating, implementing, and testing a supervised machine learning algorithm designed to identify urban-natural landscapes. Utilizing pattern recognition and statistical methods, the algorithm aims to accurately classify images based on their color profiles. By harnessing machine learning, this approach has the potential to automate landscape identification, allowing for efficient analysis of large datasets. The goal is for the trained model to effectively determine whether a given picture depicts an urban-natural landscape.
+
 ### Constraints
+
+For this project the following set of constraints were imposed:
+  * The model may only have up to 3 features.
+  * Selected features must rely solely in color and light, all edge-based features are out the scope.
+  * Training dataset must be limited and high resolution, up to 10 images.
 
 ## Algorithm explanation
 
 ### Features chosen
-To fully understand the features chosen in the current project, the following features of the type of landscapes that the model will recognize have to be reviewed:
+To fully understand the features chosen in the current project, the following features of the type of landscapes that the model will be able to recognize have to be reviewed:
   
   * The picture must have the following hierarchical structure from top to bottom:
     * Blue daylight sky at the top with few clouds.
@@ -50,8 +57,10 @@ And according to the above defined features, the feature vector that will be use
 $$\vec{F} = (SP, G, S)$$
 
 ### Pattern recognition and model calculation algorithm
-
+  
+  
 ### Implementation
+The project was implemented using python v3.12.2 and the two main libraries used were OpenCV for image processing and Numpy for matrix operations. 
 
 ## Resulting model
 As a result of the training stage, two vectors are generated, specifically the average vector ( $E(\vec{F})$ ) which reflect central tendencies of the datas set and the variance vector ($\sigma_{\Vec{F}}$) which represents the variability across the data set. Both resulting vector are shown down below:
@@ -74,12 +83,14 @@ Using the automated testing process within the recognition module and the datase
 |-----------------|:----------------:|
 | True positive   |        3         |
 | True negative   |        4         |
-| False positive  |        4         |
+| False positive  |        1         |
 | False negative  |        2         |
 
 According to the above table, the accuracy of the model is approximately 70%. 
 
 ## Conclusion
+
+As a summary, the preprocessing stage is critically important as it significantly impacts the quality of feature extraction, which forms the foundation of the model. Ensuring the correct selection of features and processing of data leads to a more precise model. Conversely, if the preprocessing stage is not carefully executed, the model may end up with a suboptimal set of features, leading to poor classification performance. Therefore, it is crucial to pay close attention to the preprocessing stage and features selection.
 
 ## Author
 
