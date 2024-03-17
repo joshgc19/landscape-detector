@@ -56,7 +56,7 @@ $$\Vec{F} = (SP, G, S)$$
 ## Resulting model
 As a result of the training stage, two vectors are generated, specifically the average vector ($E(\Vec{F})$) which reflect central tendencies of the datas set and the variance vector ($\sigma_{\Vec{F}}$) which represents the variability across the data set. Both resulting vector are shown down below:
     
-$$E(\Vec{F}) = (0.32, 0.3315, 0.2601)$$
+$$E(\vec{F}) = (0.32, 0.3315, 0.2601)$$
 
 $$\sigma_{\Vec{F}} = (0.1841, 0.0540, 0.1428)$$
   
@@ -64,7 +64,7 @@ These will be the test subject in the next section.
 
 ## Testing
 
-The objetive of testing this project is to validate the accuracy of the generated model. For this, a small dataset is used comprised of 10 high resolution images, which contain 50% landscapes and 50% non-landscape images such as animals or random settings. 
+The objetive of testing in this project is to validate the accuracy of the generated model. For this, a small dataset is used comprised of 10 high resolution images, which contain 50% landscapes and 50% non-landscape images such as animals or random settings. 
 
 ### Results
 
