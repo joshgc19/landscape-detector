@@ -41,19 +41,43 @@ To fully understand the features chosen in the current project, the following fe
   * No snow coverage must be shown.
 
 Having the characterization of the image detailed, the features chosen to be part of the features vector used throughout the project will be the following:
-  * **Sky percentage (SP)**: This feature represents the percentage of the image in which the sky is depicted. For this purpose a 50 stripes gradient must be calculated from top to bottom in search of a delta greater than 50 in _RGB_ scale.
-  * **Greeness (G)**: Percentage of green pixels contained in the image, for this project the color green will have the following color bounds: $G_L = (25, 25, 20)$ y $G_U =  (230, 255, 86)$.
-  * **Skyness (S)**:
+  * **Sky percentage (SP)**: This feature represents the percentage of the image in which the sky is depicted. For this purpose a 50 stripes gradient must be calculated from top to bottom in search of a delta greater than 65 in _RGB_ scale.
+  * **Greeness (G)**: Percentage of green pixels contained in the image, for this project the color green will have the following _RGB_ color bounds: $G_L = (25, 25, 20)$ y $G_U =  (230, 255, 86)$.
+  * **Skyness (S)**: Percentage of blueish pixels contained in the image, for this project the color sky or blueish will have the following _RGB_ color bounds: $S_L = (170, 45, 100)$ y $S_U =  (255, 255, 255)$.
+
+And according to the above defined features, the feature vector that will be used is the following:
+
+$$\Vec{F} = (SP, G, S)$$
 
 ### Pattern recognition and model calculation algorithm
 
 ### Implementation
 
 ## Resulting model
+As a result of the training stage, two vectors are generated, specifically the average vector ($E(\Vec{F})$) which reflect central tendencies of the datas set and the variance vector ($\sigma_{\Vec{F}}$) which represents the variability across the data set. Both resulting vector are shown down below:
+    
+$$E(\Vec{F}) = (0.32, 0.3315, 0.2601)$$
+
+$$\sigma_{\Vec{F}} = (0.1841, 0.0540, 0.1428)$$
+  
+These will be the test subject in the next section.
 
 ## Testing
 
+The objetive of testing this project is to validate the accuracy of the generated model. For this, a small dataset is used comprised of 10 high resolution images, which contain 50% landscapes and 50% non-landscape images such as animals or random settings. 
+
 ### Results
+
+Using the automated testing process within the recognition module and the dataset detailed in the above section  the following results were found: 
+
+| **Truth Value** | *Absolute Freq.* |
+|-----------------|:----------------:|
+| True positive   |        3         |
+| True negative   |        4         |
+| False positive  |        4         |
+| False negative  |        2         |
+
+According to the above table, the accuracy of the model is approximately 70%. 
 
 ## Conclusion
 
