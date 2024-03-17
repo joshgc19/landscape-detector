@@ -47,18 +47,18 @@ Having the characterization of the image detailed, the features chosen to be par
 
 And according to the above defined features, the feature vector that will be used is the following:
 
-$$\Vec{F} = (SP, G, S)$$
+$$\vec{F} = (SP, G, S)$$
 
 ### Pattern recognition and model calculation algorithm
 
 ### Implementation
 
 ## Resulting model
-As a result of the training stage, two vectors are generated, specifically the average vector ($E(\Vec{F})$) which reflect central tendencies of the datas set and the variance vector ($\sigma_{\Vec{F}}$) which represents the variability across the data set. Both resulting vector are shown down below:
+As a result of the training stage, two vectors are generated, specifically the average vector ( $E(\vec{F})$ ) which reflect central tendencies of the datas set and the variance vector ($\sigma_{\Vec{F}}$) which represents the variability across the data set. Both resulting vector are shown down below:
     
 $$E(\vec{F}) = (0.32, 0.3315, 0.2601)$$
 
-$$\sigma_{\Vec{F}} = (0.1841, 0.0540, 0.1428)$$
+$$\sigma_{\vec{F}} = (0.1841, 0.0540, 0.1428)$$
   
 These will be the test subject in the next section.
 
