@@ -30,6 +30,20 @@ A classification algorithm in supervised machine learning that utilizes pattern 
 ## Algorithm explanation
 
 ### Features chosen
+To fully understand the features chosen in the current project, the following features of the type of landscapes that the model will recognize have to be reviewed:
+  
+  * The picture must have the following hierarchical structure from top to bottom:
+    * Blue daylight sky at the top with few clouds.
+    * Solid ground must be portrayed with dominance of nature at the middle.
+    * Buildings and housing may be present at the middle-bottom level.
+  * Bodies of water may not be visible.
+  * Depicted nature must be alive or green.
+  * No snow coverage must be shown.
+
+Having the characterization of the image detailed, the features chosen to be part of the features vector used throughout the project will be the following:
+  * **Sky percentage (SP)**: This feature represents the percentage of the image in which the sky is depicted. For this purpose a 50 stripes gradient must be calculated from top to bottom in search of a delta greater than 50 in _RGB_ scale.
+  * **Greeness (G)**: Percentage of green pixels contained in the image, for this project the color green will have the following color bounds: $G_L = (25, 25, 20)$ y $G_U =  (230, 255, 86)$.
+  * **Skyness (S)**:
 
 ### Pattern recognition and model calculation algorithm
 
