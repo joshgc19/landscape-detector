@@ -134,13 +134,8 @@ As a summary, the preprocessing stage is critically important as it significantl
 ## **Joshua Gamboa Calvo**<br>
 BS in Computing Engineering undergraduate<br>
 Instituto Tecnológico de Costa Rica<br>
-<style>
-  .circular {
-    width: 50px;
-    border-radius: 50%;
-  }
-</style>
-[<img src="https://edent.github.io/SuperTinyIcons/images/svg/linkedin.svg" class="circular">](https://www.linkedin.com/in/joshgc19)  [<img src="https://edent.github.io/SuperTinyIcons/images/svg/github.svg" class="circular" />](https://github.com/joshgc19)  [<img src="https://edent.github.io/SuperTinyIcons/images/svg/medium.svg" class="circular">](https://medium.com/@joshgc.19)<br> 
+<br>
+[<img src="https://edent.github.io/SuperTinyIcons/images/svg/linkedin.svg" width="50px" style="border-radius:50%">](https://www.linkedin.com/in/joshgc19)  [<img src="https://edent.github.io/SuperTinyIcons/images/svg/github.svg" width="50px" style="border-radius:50%"/>](https://github.com/joshgc19)  [<img src="https://edent.github.io/SuperTinyIcons/images/svg/medium.svg" width="50px" style="border-radius:50%">](https://medium.com/@joshgc.19)<br> 
 
 
 ## License
