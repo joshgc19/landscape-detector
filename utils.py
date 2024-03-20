@@ -9,8 +9,8 @@ PREPROCESS_TESTING_DATA_DIR = "./preprocessed_data/testing/"
 
 VECTORS_DIR = "./model_vectors/"
 
-INDIVIDUAL_VECTOR_FILE_NAME = "Individuales"
-MODEL_FILE_NAME = "Modelo_reconocedor_de_paisajes"
+INDIVIDUAL_VECTOR_FILE_NAME = "individuals"
+MODEL_FILE_NAME = "obtained_model"
 
 
 def sum_tuples(array):
