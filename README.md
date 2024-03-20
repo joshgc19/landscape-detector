@@ -124,6 +124,8 @@ Using the automated testing process within the recognition module the following 
 | True positive               |         30%          |
 | True negative               |         40%          |
 
+Taking into account the true positive and true negative outcomes the accuracy level of the obtained model was of exactly 70%.
+
 # Conclusion
 As a summary, the preprocessing stage is critically important as it significantly impacts the quality of feature extraction, which forms the foundation of the model. Ensuring the correct selection of features and processing of data leads to a more precise model. Conversely, if the preprocessing stage is not carefully executed, the model may end up with a suboptimal set of features, leading to poor classification performance. Therefore, it is crucial to pay close attention to the preprocessing stage and features selection.
 
