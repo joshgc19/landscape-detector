@@ -78,7 +78,7 @@ And according to the above defined features, the feature vector that will be use
 
 $$\vec{F} = (SP, G, S)$$
 
-This features were chosen accounting for the design constraints present in the *[Design Constraints](#design-constraints)* section and the characterization of the dataset presente in the *[Data](#data)* section.
+This features were chosen accounting for the design constraints present in the *[Design Constraints](#design-constraints)* section and the characterization of the dataset shown in the *[Target Data Requirements](#target-data-requirements)* section.
 
 ## Chosen Classifier
 **The Gaussian Naive Bayes (GNB)** classifier was chosen for this project due to several key advantages that make it well-suited for the task at hand. First, the GNB classifier is particularly effective when dealing with continuous data that can be assumed to be normally distributed, which aligns with the nature of the features in our dataset. By modeling the landscape features as a Gaussian distribution, the GNB classifier can efficiently estimate the likelihood of an image being a target landscape or not based on its features' mean and variance.
@@ -107,7 +107,7 @@ To easily extract the features from the dataset, from each feature an intermedia
 
 # Results
 ## Training
-As a result of the training stage and each individual features vector, the average vector ( $E(\vec{F})$ ) which reflect central tendencies of the datas set and the variance vector ($\sigma_{\vec{F}}$) which represents the variability across the data set. Both resulting vector are shown down below:
+As a result of the training stage and each individual features vector, the average vector ( $E(\vec{F})$ ) which reflect central tendencies of the datas set and the variance vector ($\sigma_{\vec{F}}$) which represents the variability across the dataset. Both resulting vector are shown down below:
     
 $$E(\vec{F}) = (0.32, 0.3315, 0.2601)$$
 
