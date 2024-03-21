@@ -1,7 +1,7 @@
 Landscape Detector
 ===================
 
-The current project aims to detect urban-rural landscape images using pattern recognition based in supervised machine learning with a Gaussian Naive Bayes (GNB) classifier. This will be achieved by implementing a data preprocessor, a feature extractor and a recognizer in Python. The resulting recognition model will then be tested against a new dataset to determine its accuracy level.
+The current project aims to detect urban-rural landscape images using pattern recognition based in supervised machine learning with statistical classifier. This will be achieved by implementing a data preprocessor, a feature extractor and a recognizer in Python. The resulting recognition model will then be tested against a new dataset to determine its accuracy level.
 
 [//]: <> (Badges should go here)
 
@@ -81,8 +81,7 @@ $$\vec{F} = (SP, G, S)$$
 This features were chosen accounting for the design constraints present in the *[Design Constraints](#design-constraints)* section and the characterization of the dataset shown in the *[Target Data Requirements](#target-data-requirements)* section.
 
 ## Chosen Classifier
-**The Gaussian Naive Bayes (GNB)** classifier was chosen for this project due to several key advantages that make it well-suited for the task at hand. First, the GNB classifier is particularly effective when dealing with continuous data that can be assumed to be normally distributed, which aligns with the nature of the features in our dataset. By modeling the landscape features as a Gaussian distribution, the GNB classifier can efficiently estimate the likelihood of an image being a target landscape or not based on its features' mean and variance.
-
+A statistical classifier was chosen for this project due to its ability to provide probabilistic outputs, offering insights into the expected value or average of a target variable and its error slack or variance. This capability is valuable for decision-making processes, especially in situations with incomplete or noisy data, as it allows for a more nuanced understanding of the data and its uncertainties. 
 
 # Data
 ## Target data requirements

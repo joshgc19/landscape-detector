@@ -66,8 +66,8 @@ def recognize(features_list):
 
     # Prints out general statistics
     print("\n== Statistics ==\n")
-    print("Truth positives = ", truth_positives, " observations - ", truth_positives/idx*100, "%")
-    print("Truth negatives = ", truth_negatives, " observations - ", truth_negatives/idx*100, "%")
+    print("Truth positives = ", truth_positives, " observations - ", truth_positives / idx * 100, "%")
+    print("Truth negatives = ", truth_negatives, " observations - ", truth_negatives / idx * 100, "%")
     print("False positives = ", false_positives, " observations - ", false_positives / idx * 100, "%")
     print("False negatives = ", false_negatives, " observations - ", false_negatives / idx * 100, "%")
-    print("Accuracy = ",  (truth_positives + truth_negatives) / idx * 100, "%")
+    print("Accuracy = ", (truth_positives + truth_negatives) / idx * 100, "%")

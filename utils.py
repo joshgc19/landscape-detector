@@ -1,4 +1,6 @@
 import os
+import math
+import numpy as np
 
 # DATA AND IMAGES FOLDERS PATH
 TRAINING_DATA_DIR = "./data/training/"
@@ -74,3 +76,4 @@ def join_list_floats(floats, separator):
     :return: string with joined floats
     """
     return separator.join([str(flt) for flt in floats])
+
