@@ -7,7 +7,7 @@ The current project aims to detect urban-rural landscape images using pattern re
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![code size](https://img.shields.io/github/languages/code-size/joshgc19/landscape_recognition_model)
+![code size](https://img.shields.io/github/languages/code-size/joshgc19/landscape_detector)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=flat&logo=opencv&logoColor=white)
 
@@ -138,6 +138,6 @@ Instituto Tecnológico de Costa Rica<br>
 
 
 ## License
->You can checkout the full license [here (opens in the same tab)](https://github.com/joshgc19/landscape_recognition_model/blob/master/LICENSE). 
+>You can checkout the full license [here (opens in the same tab)](https://github.com/joshgc19/landscape_detector/blob/master/LICENSE). 
 
 This project is licensed under the terms of the **MIT** license. 
