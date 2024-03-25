@@ -131,11 +131,12 @@ As a summary, the preprocessing stage is critically important as it significantl
 # Project author
 
 ## **Joshua Gamboa Calvo**<br>
-BS in Computing Engineering undergraduate<br>
-Instituto Tecnológico de Costa Rica<br>
+Computing Engineering Undergraduate & Assistant Researcher<br>
+Costa Rica Technological Institute (Instituto Tecnológico de Costa Rica)<br>
 <br>
-[<img src="https://edent.github.io/SuperTinyIcons/images/svg/linkedin.svg" width="50px" style="border-radius:50%">](https://www.linkedin.com/in/joshgc19)  [<img src="https://edent.github.io/SuperTinyIcons/images/svg/github.svg" width="50px" style="border-radius:50%"/>](https://github.com/joshgc19)  [<img src="https://edent.github.io/SuperTinyIcons/images/svg/medium.svg" width="50px" style="border-radius:50%">](https://medium.com/@joshgc.19)<br> 
-
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joshgc19)
+[![GitHub](https://img.shields.io/badge/-GitHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joshgc19)
+[![Medium](https://img.shields.io/badge/-Medium-white?style=for-the-badge&logo=medium&logoColor=black)](https://medium.com/@joshgc.19)
 
 ## License
 >You can checkout the full license [here (opens in the same tab)](https://github.com/joshgc19/landscape_detector/blob/master/LICENSE). 
