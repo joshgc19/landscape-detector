@@ -7,7 +7,7 @@ The current project aims to detect urban-rural landscape images using pattern re
 
 ![Python](https://img.shields.io/badge/-Python-3776ab?style=flat&logo=Python&logoColor=F7DF1E)
 ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
-![Numpy](https://img.shields.io/badge/-Numpy-3776ab?style=flat&logo=numpy&logoColor=white)
+![Numpy](https://img.shields.io/badge/-Numpy-013243?style=flat&logo=numpy&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 ![code size](https://img.shields.io/github/languages/code-size/joshgc19/landscape_detector)
 
