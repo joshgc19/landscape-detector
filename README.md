@@ -115,14 +115,13 @@ $$\sigma_{\vec{F}} = (0.1841, 0.0540, 0.1428)$$
 ## Testing
 The objetive of testing the current project is to determine the accuracy of the generated model. The testing dataset was composed of 10 high resolution images, which contained 5 landscape images and 5 non-landscape images such as animals or random settings.
 
-Using the automated testing process within the recognition module the following results were found: 
+Using the automated testing process within the recognition module the following confusion matrix was found: 
 
-| **Classification outcomes** | *Relative Frequency* |
-|-----------------------------|:--------------------:|
-| False positive              |         10%          |
-| False negative              |         20%          |
-| True positive               |         30%          |
-| True negative               |         40%          |
+|                  | **Predicted True** | **Predicted False** | **Total** |
+|:----------------:|:------------------:|:-------------------:|:---------:|
+| **Actual True**  |         3          |          2          |     5     |
+| **Actual False** |         1          |          4          |     5     |
+|    **Total**     |         4          |          6          |    10     |
 
 Taking into account the true positive and true negative outcomes the accuracy level of the obtained model was of exactly 70%.
 
