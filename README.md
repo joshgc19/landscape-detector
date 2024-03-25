@@ -139,7 +139,7 @@ Costa Rica Technological Institute (Instituto Tecnológico de Costa Rica)<br>
 [![GitHub](https://img.shields.io/badge/-GitHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joshgc19)
 [![Medium](https://img.shields.io/badge/-Medium-white?style=for-the-badge&logo=medium&logoColor=black)](https://medium.com/@joshgc.19)
 
-## License
+# License
 >You can checkout the full license [here (opens in the same tab)](https://github.com/joshgc19/landscape_detector/blob/master/LICENSE). 
 
 This project is licensed under the terms of the **MIT** license. 
