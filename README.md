@@ -5,11 +5,14 @@ The current project aims to detect urban-rural landscape images using pattern re
 
 [//]: <> (Badges should go here)
 
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=white)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![Python](https://img.shields.io/badge/-Python-3776ab?style=flat&logo=Python&logoColor=F7DF1E)
+![Numpy](https://img.shields.io/badge/-Numpy-3776ab?style=flat&logo=numpy&logoColor=white)
+![ScikitLearn](https://img.shields.io/badge/-ScikitLearn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![SciPy](https://img.shields.io/badge/-SciPy-8CAAE6?style=flat&logo=scipy&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 ![code size](https://img.shields.io/github/languages/code-size/joshgc19/landscape_detector)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
-![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=flat&logo=opencv&logoColor=white)
+
 
 # Table of contents
 * [Landscape Detector](#landscape-detector)
